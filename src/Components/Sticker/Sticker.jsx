@@ -1,12 +1,12 @@
 import "./Sticker.css";
-import wordpress1 from "../../Images/wordpress1.svg";
 
-const Sticker = ({ heading, paraText }) => {
+
+const Sticker = ({ heading, paraText, pic }) => {
   return (
     <>
       <article>
         <div className="sticker">
-          <img src={wordpress1} alt="wordpress icon" />
+          <img src={pic} alt="wordpress icon" />
           <h3>{heading}</h3>
           <p>{paraText}</p>
           <p>
