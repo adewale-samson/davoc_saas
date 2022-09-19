@@ -66,13 +66,6 @@ const Main = () => {
           valueData.map(item =>
             <Sticker heading={item.head1} paraText={item.text} key={item.id} />)
         }
-        
-          {/* <Sticker heading={valueData[0].head1} paraText={valueData[0].text} />
-          <Sticker heading={valueData[1].head1} paraText={valueData[1].text}/>
-          <Sticker heading={valueData[2].head1} paraText={valueData[2].text}/>
-          <Sticker heading={valueData[3].head1} paraText={valueData[3].text}/>
-          <Sticker heading={valueData[4].head1} paraText={valueData[4].text}/>
-          <Sticker heading={valueData[5].head1} paraText={valueData[5].text}/> */}
         </article>
       </section>
       <Reality />

@@ -1,6 +1,7 @@
 import "./Navbar.css";
-import logo from '../../logo.svg'
+import logo from "../../logo.svg";
 import hamburger from "../../hamburger.svg";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
@@ -12,12 +13,12 @@ const Navbar = () => {
         </span>
         <ul id="menu" class="menu">
           <li className="item">
-            <a href="https://github.com/worldsalt3/React-class/blob/main/src/App.js" class="home">
+            <Link to="/" class="home">
               Home
-            </a>
+            </Link>
           </li>
           <li className="item">
-            <a href="services.html">Services</a>
+            <Link to="services">Services</Link>
           </li>
           <li className="item">
             <a href=".#">Case</a>
