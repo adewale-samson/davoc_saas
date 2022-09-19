@@ -1,0 +1,13 @@
+.para1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 102.2%;
+}
+.sticker_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 107px;
+}

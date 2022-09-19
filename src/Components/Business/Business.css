@@ -1,0 +1,44 @@
+.saas {
+  background-color: #60e1cb;
+}
+.saas_h1 {
+  width: 300px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 112.5%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 70px;
+}
+.saas_para {
+  color: #292525;
+  opacity: 0.6;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 157.2%;
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+@media screen and (min-width: 468px) {
+  .saas_h1 {
+    width: 380px;
+  }
+  .saas_para {
+    width: 380px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .saas_h1 {
+    width: 700px;
+  }
+  .saas_para {
+    width: 700px;
+  }
+}

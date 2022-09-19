@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.service_section {
+  background-color: #e9fbf8;
+  text-align: center;
+}
+.service_section h2 {
+  color: #292525;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 61px;
+  padding-top: 100px;
+}
+
+.sticker {
+  width: 351px;
+  height: 381px;
+  margin: 30px;
+  background-color: #fdfdff;
+  box-shadow: 0px 97px 90px rgba(7, 0, 59, 0.12);
+  border-radius: 12px;
+  text-align: start;
+  padding: 0px 30px;
+  border-top: 7px solid #60e1cb;
+}
+.sticker img {
+  margin-top: 40px;
+}
+.sticker h3 {
+  margin: 35px 0px 16px 0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+.sticker p {
+  width: 279px;
+  margin-bottom: 32px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+.sticker small {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #7bc0e3;
+}
+
+@media screen and (min-width: 468px) {
+  .service_section h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .service_section h2 {
+    font-size: 32px;
+  }
+}

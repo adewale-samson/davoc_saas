@@ -1,0 +1,46 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.email {
+  text-align: center;
+  color: #000;
+  font-style: normal;
+  background-color: #60e1cb;
+}
+.email_h3 {
+  font-size: 48px;
+  line-height: 61px;
+  font-weight: 700;
+  margin-bottom: 27px;
+  padding-top: 161px;
+}
+.email_para {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 102.2%;
+  opacity: 0.9;
+  margin-bottom: 60px;
+}
+.email_btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #fff;
+  background: #292525;
+  box-shadow: 0px 46px 52px #36b8a2;
+  border-radius: 1000px;
+  width: 311px;
+  height: 84px;
+  margin-bottom: 161px;
+}
+
+@media screen and (min-width: 768px) {
+  .email_btn {
+    width: 411px;
+  }
+}
